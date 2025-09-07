@@ -21,23 +21,3 @@ HTML: target/cucumber-reports.html
 JSON: target/cucumber.json
 Allure (optional): allure serve target/allure-results (if you have Allure installed)
 
-URL: https://restful-booker.herokuapp.com/
-Project structure mirrors what you'd expect for Cucumber + TestNG + RestAssured tests.
-restassured-bdd-framework
- ├── pom.xml
- └── src
-     ├── main
-     │    └── java
-     │         └── utils
-     │              └── ApiUtils.java
-     └── test
-          ├── java
-          │    ├── stepDefinitions
-          │    │     └── BookingSteps.java
-          │    ├── runners
-          │    │     └── TestRunner.java
-          │    └── hooks
-          │          └── Hooks.java
-          └── resources
-               └── features
-                    └── booking.feature
